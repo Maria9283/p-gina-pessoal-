@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white;
+    background-color: #4b204b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    text-align: center; 
+}
+.profile-picture img {
+    width: 15vh;
+    margin: 4vh;
+    border-radius: 50%;
+}
+.title {
+    text-align: center;
+}
+.description {
+    text-align: center;
+}
+.description p {
+    margin: 3vh;
+}
+.social-media {
+    text-align: center;
+}
+.social-media .button a {
+    display: inline-block;
+    width:45vh;
+    height:50px;
+    line-height:50px;
+    margin:5px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight:pointer;
+    cursor: pointer;
+    color: white;
+}
+.Instagram {
+    background-color:none;
+    border: 2px solid #7e2d7e;
+}
+.Instagram:hover {
+    background-color: #7e2d7e;
+    transition: 0.20s;
+}
+.TikTok {
+    background-color: none;
+    border: 2px solid #7e2d7e;
+}
+.TikTok:hover {
+    background-color: #7e2d7e;
+    transition: 0.20s
+}
+.Github {
+    background-color:none;
+    border: 2px solid #7e2d7e;
+}
+.Github:hover {
+    background-color: #7e2d7e;
+    transition: 0.20s;
+}
